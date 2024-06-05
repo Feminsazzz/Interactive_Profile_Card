@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.image
+{
+    height: 100px;
+    width: 100px; 
+    position: relative;
+    border-radius: 50%;
+    background-color: rgb(140, 187, 226);
+    padding: 3px;
+    object-fit: cover;
+}
+.image .profile_image
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid bisque ;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 244, 244);
+}
+.profile_card
+{
+    background-color: white;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 5px 10px cadetblue;
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.letter
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;  
+}
+.name
+{
+    font-weight: 500;
+    font-size: 30px;
+}
+.job
+{
+    font-size: 20px;
+}
+.icons
+{
+    display: flex;
+    align-items: center;
+}
+.link
+{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    background-color: aqua;
+    margin: 0 6px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.buttons button
+{
+    background-color: rgb(9, 61, 103) ;
+    margin: 0 8px;
+    padding: 8px 22px;
+    border-radius: 29px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+button:hover
+{
+    background-color: black;
+}
+.profile_card .analytics
+{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.analytics .data
+{
+    padding:0 20px;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid black;
+    
+}
+.data:last-child
+{
+border-right: none;
+}
